@@ -1,0 +1,23 @@
+.navbar-expand-md .navbar-nav {
+}
+
+#jumbotron {
+  padding: 20%;
+}
+
+#jumbo {
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  #jumbo {
+    padding: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  #jumbotron {
+    padding: 20px;
+  }
+}
+

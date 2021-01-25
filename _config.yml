@@ -1,0 +1,15 @@
+#setup
+name: aaronsite
+baseurl: "aaronferrucci.com"
+permalink: /:categories/:year/:month/:day/:title:output_ext
+timezone: GMT
+markdown: kramdown
+
+collections:
+  posts:
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+

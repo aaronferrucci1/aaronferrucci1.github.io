@@ -1,0 +1,45 @@
+---
+layout: default
+title: home
+---
+
+<div id="jumbotron" style="background: url(&quot;assets/img/background.jpg&quot;) top;">
+    <div class="jumbotron jumbotron-fluid" id="jumbo" style="opacity: 1;background: rgba(233,236,239,0);">
+        <h1 id="h1" style="color: rgb(255,255,255);padding: 40px;font-family: 'Allerta Stencil', sans-serif;">Hi, I'm
+            Aaron</h1>
+        <p class="text-monospace text-center" id="welcome"
+            style="color: rgb(255,255,255);font-size: 15px;font-family: 'Allerta Stencil', sans-serif;">
+            Hey friends, I’m using this as a space to write freely.
+        </p>
+    </div>
+</div>
+<div class="article-list" style="padding: 40px;opacity: 1;background: rgba(234,234,234,0.31);">
+    <div class="container" id="ras">
+        <div class="intro">
+            <h2 class="text-center">Recent Articles</h2>
+            <p class="text-center">Tweet me your thoughts!</p>
+        </div>
+        <div class="row articles">
+            {% for post in site.posts limit:3 %}
+            <div class="col-sm-6 col-lg-4 item">
+                <a href="{{ post.url }}">
+                <img class="img-fluid" style="height: 210px;" src="{{ post.thumbnail }}">
+                </a>
+                <h3 class="name"><a href="{{ post.url }}" style="color:rgb(65, 65, 65)">{{ post.title }}</a></h3>
+                <p class="description">{{ post.excerpt }}</p><a
+                class="action" href="{{ post.url }}"><i class="fas fa-chevron-right"></i></a>
+            </div> 
+            {% endfor %}
+            <!-- <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="assets/img/building.jpg"></a>
+                <h3 class="name">Anotha 1</h3>
+                <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent
+                    aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a
+                    class="action" href="#"><i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="assets/img/loft.jpg"></a>
+                <h3 class="name">Thoughtismous</h3>
+                <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent
+                    aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a
+                    class="action" href="#"><i class="fas fa-chevron-right"></i></a>
+            </div> -->
+        </div>
