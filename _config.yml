@@ -1,5 +1,5 @@
 #setup
-name: aaronsite
+name: Aaron Ferrucci
 baseurl: /
 url: aaronferrucci.com
 permalink: /:categories/:year/:month/:day/:title:output_ext
