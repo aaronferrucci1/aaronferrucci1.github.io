@@ -2,6 +2,7 @@
 name: aaronsite
 baseurl: "aaronferrucci.com"
 permalink: /:categories/:year/:month/:day/:title:output_ext
+description: Hey friends, i'm using this site to write freely.
 timezone: GMT
 markdown: kramdown
 
