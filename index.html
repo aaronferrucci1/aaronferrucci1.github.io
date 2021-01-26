@@ -26,7 +26,19 @@ title: home
                 <img class="img-fluid" style="height: 210px;" src="{{ post.thumbnail }}">
                 </a>
                 <h3 class="name"><a href="{{ post.url }}" style="color:rgb(65, 65, 65)">{{ post.title }}</a></h3>
-                <p class="description">{{ post.excerpt }}</p><a
+                <p class="description">{{ post.excerpt }}</p>
+                <span class="read-time" title="Estimated read time">
+                    <svg id="i-clock" viewBox="0 0 32 32" width="20" height="20" fill="none" stroke="currentcolor" stroke-linecap="round" 
+                    stroke-linejoin="round" stroke-width="2"><circle cx="16" cy="16" r="14" /><path d="M16 8 L16 16 20 20" /></svg>       
+                  
+                    {% assign words = post.content | number_of_words %}
+                    {% if words < 360 %}
+                      1 minute read.
+                    {% else %}
+                      {{ words | divided_by:180 }} minute read.
+                    {% endif %}
+                  </span>
+                <a
                 class="action" href="{{ post.url }}"><i class="fas fa-chevron-right"></i></a>
             </div> 
             {% endfor %}
