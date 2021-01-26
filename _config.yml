@@ -13,3 +13,4 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
+# bundle exec jekyll serve --livereload
