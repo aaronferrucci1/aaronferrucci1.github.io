@@ -11,7 +11,7 @@ A question that I receive rather often is "How can I move my project from Garage
                     </figure>
 
 
-Thankfully Apple have made this process rather simple and it's well documented here: [https://support.apple.com/en-gb/guide/logicpro/lgcpa8854ca7/mac](https://support.apple.com/en-gb/guide/logicpro/lgcpa8854ca7/mac)  . For those less inclined to following lengthy documents i'll outline the key points here, it's super simple!
+Thankfully Apple have made this process rather simple and it's well documented here: [https://support.apple.com/en-gb/guide/logicpro/lgcpa8854ca7/mac](https://support.apple.com/en-gb/guide/logicpro/lgcpa8854ca7/mac)  . For those less inclined to following lengthy documents I'll outline the key points here, it's super simple!
 
 1. Open Logic Pro 
 2. Navigate to file > Open and then locate your GarageBand project using Finder
