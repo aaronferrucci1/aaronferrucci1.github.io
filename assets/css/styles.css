@@ -1,0 +1,29 @@
+.navbar-expand-md .navbar-nav {
+}
+
+#jumbotron {
+  padding: 20%;
+}
+
+#jumbo {
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  #jumbo {
+    padding: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  #jumbotron {
+    padding: 20px;
+  }
+}
+
+.img--circle {
+  float: ; /* replaces the style previously inherited by the browser */
+  margin: 0 16px 16px 0;
+  border-radius: 10px;
+}
+

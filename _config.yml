@@ -1,0 +1,18 @@
+#setup
+name: Aaron Ferrucci
+baseurl: /
+url: aaronferrucci.com
+permalink: /:categories/:year/:month/:day/:title:output_ext
+description: Personal site
+timezone: GMT
+markdown: kramdown
+
+collections:
+  posts:
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# bundle exec jekyll serve --livereload

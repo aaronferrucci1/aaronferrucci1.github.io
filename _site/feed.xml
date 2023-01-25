@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-25T17:29:01+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Aaron Ferrucci</title><subtitle>Personal site</subtitle><entry><title type="html">Transferring A Project From Garageband To Logic Pro</title><link href="http://localhost:4000/2020/01/26/Transferring-A-Project-From-GarageBand-To-Logic-Pro.html" rel="alternate" type="text/html" title="Transferring A Project From Garageband To Logic Pro" /><published>2020-01-26T00:00:00+00:00</published><updated>2020-01-26T00:00:00+00:00</updated><id>http://localhost:4000/2020/01/26/Transferring-A-Project-From-GarageBand-To-Logic-Pro</id><content type="html" xml:base="http://localhost:4000/2020/01/26/Transferring-A-Project-From-GarageBand-To-Logic-Pro.html"><![CDATA[<p>A question that I receive rather often is “How can I move my project from GarageBand to Logic Pro?”. Here’s a very short guide on how to do just that!</p>
+
+<figure><img class="figure-img" src="/assets/img/garageband.jpg" />
+                        <figcaption></figcaption>
+                    </figure>
+
+<p>Thankfully Apple have made this process rather simple and it’s well documented here: <a href="https://support.apple.com/en-gb/guide/logicpro/lgcpa8854ca7/mac">https://support.apple.com/en-gb/guide/logicpro/lgcpa8854ca7/mac</a>  . For those less inclined to following lengthy documents I’ll outline the key points here, it’s super simple!</p>
+
+<ol>
+  <li>Open Logic Pro</li>
+  <li>Navigate to file &gt; Open and then locate your GarageBand project using Finder</li>
+  <li>Logic will generate a LPX project file and open in.</li>
+  <li>Providing this process has been successful your project will open intact with all of your sounds working as expected. This also presumes that’ve not uninstalled the GarageBand sound library which will be used here!</li>
+</ol>]]></content><author><name>Aaron Ferrucci</name></author><summary type="html"><![CDATA[A question that I receive rather often is “How can I move my project from GarageBand to Logic Pro?”. Here’s a very short guide on how to do just that!]]></summary></entry></feed>
